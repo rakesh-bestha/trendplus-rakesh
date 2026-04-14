@@ -28,3 +28,16 @@ print(f"Saved {len(df_data)} rows to data/trends_clean.csv")
 print(df_data["category"].value_counts())
 
 
+"""
+After removing duplicates: 93
+After removing missing values: 93
+After removing low scores: 91
+Saved 91 rows to data/trends_clean.csv
+category
+technology       24
+worldnews        22
+sports           18
+entertainment    14
+science          13
+Name: count, dtype: int64
+"""
