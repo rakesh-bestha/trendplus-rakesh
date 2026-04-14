@@ -39,3 +39,25 @@ print(f"Most Stories in {top_category} ({len(top_category)})")
 
 print("Saved to data/trends_analysed.csv")
 
+"""
+Loaded data: (91, 7)
+First 5 rows:
+     post_id  ...         collected_at
+0  47768195  ...  2026-04-14 23:44:22
+1  47768133  ...  2026-04-14 23:44:22
+2  47767676  ...  2026-04-14 23:44:22
+3  47766370  ...  2026-04-14 23:44:22
+4  47767606  ...  2026-04-14 23:44:22
+
+[5 rows x 7 columns]
+Average Score: 147.43956043956044
+Average Comments: 71.73626373626374
+----NumPy Stats----
+Mean Score: 147.43956043956044
+Median Score: 65.0
+Std Score: 208.29444547896424
+Max Score: 1398
+Min Score: 5
+Most Stories in technology (10)
+Saved to data/trends_analysed.csv
+"""
